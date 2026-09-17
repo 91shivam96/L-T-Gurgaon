@@ -1,4 +1,4 @@
-# L&T Sector 86 Gurgaon - Premium Residential Project Website
+# L&T Sector  86 Gurgaon - Premium Residential Project Website
 
 A modern, responsive single-page website for L&T  Sector 86 Gurgaon , a premium residential project in Sector 86, New Gurugram by L&T Realty.
 
