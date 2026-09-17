@@ -81,3 +81,32 @@ function openPopup() {
         popup.classList.add('active');
     }
 }
+
+function openThankYou() {
+    const thankYouModal = document.getElementById('thankYouModal');
+    if (thankYouModal) {
+        thankYouModal.classList.add('active');
+    }
+}
+
+function closeThankYou() {
+    const thankYouModal = document.getElementById('thankYouModal');
+    if (thankYouModal) {
+        thankYouModal.classList.remove('active');
+    }
+}
+
+// Form submission handler
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('enquiryForm');
+    if (form) {
+        form.addEventListener('submit', function(e) {
+            // FormSubmit will handle the submission
+            // Show thank you modal after a short delay
+            setTimeout(function() {
+                closePopup();
+                openThankYou();
+            }, 1000);
+        });
+    }
+});

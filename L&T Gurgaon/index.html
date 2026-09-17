@@ -648,11 +648,10 @@
             <button class="popup-close" onclick="closePopup()">&times;</button>
             <h3>Get L&T Gurgaon Information</h3>
             <p>Enter your details to receive the latest project information.</p>
-            <form action="https://formsubmit.co/piyushawasthi0005@gmail.com" method="POST">
+            <form action="https://formsubmit.co/piyushawasthi0005@gmail.com" method="POST" id="enquiryForm">
                 <input type="hidden" name="_subject" value="Popup Enquiry: L&T Gurgaon">
                 <input type="hidden" name="_captcha" value="false">
                 <input type="hidden" name="_template" value="table">
-                <input type="hidden" name="_next" value="thank-you.html">
                 <div class="form-group">
                     <label for="popup-name">Name *</label>
                     <input type="text" id="popup-name" name="name" required minlength="2">
@@ -677,6 +676,24 @@
                 </div>
                 <button type="submit">Get Information</button>
             </form>
+        </div>
+    </div>
+
+    <!-- Thank You Modal -->
+    <div class="thank-you-modal" id="thankYouModal">
+        <div class="thank-you-modal-content">
+            <button class="thank-you-close" onclick="closeThankYou()">&times;</button>
+            <div class="thank-you-success-icon">
+                <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+            </div>
+            <div class="thank-you-label">ENQUIRY RECEIVED</div>
+            <h2 class="thank-you-title">Thank You</h2>
+            <p class="thank-you-description">
+                Your enquiry has been successfully submitted. Our team will contact you shortly with the L&T Sector 86 Gurgaon project details, including pricing, floor plans, and availability information.
+            </p>
+            <button class="thank-you-btn" onclick="closeThankYou()">BACK TO PROJECT</button>
         </div>
     </div>
 
