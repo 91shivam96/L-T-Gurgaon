@@ -4,7 +4,7 @@ A modern, responsive single-page website for L&T  Sector 86 Gurgaon , a premium 
 
 ## 🏠 Project Overview
 
-This website showcases the L&T Sector 86 Gurgaon residential project, featuring:
+This website showcases the L&T Sector 86 Gurgaon residen tial project, featuring:
 - Premium 3 & 4 BHK residences
 - Modern amenities and lifestyle facilities
 - Excellent connectivity to key destinations
